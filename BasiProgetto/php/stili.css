@@ -1,0 +1,42 @@
+/* Stile generico per tutti i titoli */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #3399CC; /* Correggi il colore aggiungendo # */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Stile generico per le intestazioni */
+.header {
+    background-color: #3399CC; /* Correggi il colore aggiungendo # */
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* Stile generico per tutti i bottoni */
+button, .button {
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px 'Courier New', Courier, monospace;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 1px #0076a3;
+    background: #0095cd;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+/* Stile generico per il posizionamento dei bottoni (se necessario) */
+.buttons-container {
+    text-align: center;
+}
+
+/* Stile generico per messaggi di errore */
+.error-message {
+    text-align: center;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
